@@ -9,6 +9,8 @@ Including the java bin directory in windows %Path system variable is recommended
 Eclipse:
 https://www.eclipse.org/downloads/packages/
 Install Eclipse IDE for Java Developers
+
+Eclipse setup:
 Unzip download and use .exe to launch Eclipse IDE.
 Select workspace when prompted.
 Close welcome tab.
