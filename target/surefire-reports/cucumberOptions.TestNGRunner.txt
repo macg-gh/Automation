@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: cucumberOptions.TestNGRunner
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.828 s <<< FAILURE! -- in cucumberOptions.TestNGRunner
+cucumberOptions.TestNGRunner.runScenario["User Page default Sign up", "Application Login"](5) -- Time elapsed: 0.023 s <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at stepDefinitions.mainSteps.user_is_on_practice_landing_page(mainSteps.java:57)
+	at ✽.User is on Practice Landing page(file:///C:/Users/twinc/eclipse-workspace/Automation/src/test/java/features/firstProgram.feature:51)
+
